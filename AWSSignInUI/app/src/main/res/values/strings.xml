@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AWSSignInUI</string>
+    <string name="ten_dang_nhap">Tên đăng nhập</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="dang_ky"><u>Bạn chưa đăng ký?</u></string>
+    <string name="quen_mat_khau">Quên mật khẩu?</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="ten_nguoi_dung">Tên người dùng</string>
+    <string name="email">Email</string>
+    <string name="so_dien_thoai">Số điện thoại(vd: +84912345678)</string>
+    <string name="btn_dang_ky">Đăng ký</string>
+    <string name="nhap_day_du_ten_mk">Vui lòng nhập đầy đủ tên và mật khẩu</string>
+    <string name="mail_khong_hop_le">Mail không hợp lệ</string>
+    <string name="hoan_thanh_dang_ky">Nhập các thông tin để hoàn thành đăng ký</string>
+    <string name="mo">Mở</string>
+    <string name="dong">Đóng</string>
+    <string name="ket_noi">Kết nối</string>
+    <string name="tinh_trang_ket_noi">tình trạng kết nối</string>
+    <string name="day_du_thong_tin"><i>Vui lòng nhập đủ thông tin</i></string>
+    <string name="loi_dk">Lỗi đăng ký</string>
+    <string name="xac_nhan_ma"><u>Xác nhận mã đăng ký của bạn</u></string>
+    <string name="btn_xac_nhan">Xác nhận</string>
+    <string name="nhap_xn">Nhập mã xác nhận</string>
+    <string name="gui_lai_ma">Gửi lại mã</string>
+    <string name="dk_thanh_cong">Đăng ký thành công, quay lại trang đăng nhập</string>
+    <string name="mat_khau_moi">Mật khẩu mới</string>
+    <string name="xac_nhan">Xác nhận</string>
+</resources>

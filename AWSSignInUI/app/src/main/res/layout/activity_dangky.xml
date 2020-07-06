@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tranparentBackground"
+    >
+
+    <include layout="@layout/custom_toobar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="@string/hoan_thanh_dang_ky"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/txtTenDangNhapDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:hint="@string/ten_dang_nhap"
+            android:textSize="@dimen/_16ssp"
+            android:layout_margin="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:maxLines="1"
+            android:background="@drawable/custom_edtext"
+            />
+
+        <EditText
+            android:id="@+id/txtMatKhauDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:hint="@string/mat_khau"
+            android:inputType="textPassword"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:textSize="@dimen/_16ssp"
+            android:maxLines="1"
+            android:background="@drawable/custom_edtext"/>
+
+        <EditText
+            android:id="@+id/txtTenNguoiDungDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:hint="@string/ten_nguoi_dung"
+            android:textSize="@dimen/_16ssp"
+            android:layout_margin="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:maxLines="1"
+            android:background="@drawable/custom_edtext"
+            />
+
+        <EditText
+            android:id="@+id/txtEmailDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:hint="@string/email"
+            android:textSize="@dimen/_16ssp"
+            android:layout_margin="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:maxLines="1"
+            android:background="@drawable/custom_edtext"
+            />
+
+        <EditText
+            android:id="@+id/txtSoDienThoatDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:hint="@string/so_dien_thoai"
+            android:textSize="@dimen/_16ssp"
+            android:layout_margin="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:maxLines="1"
+            android:background="@drawable/custom_edtext"
+            />
+
+        <Button
+            android:id="@+id/btnDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btndangnhap"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="@string/btn_dang_ky"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_18ssp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

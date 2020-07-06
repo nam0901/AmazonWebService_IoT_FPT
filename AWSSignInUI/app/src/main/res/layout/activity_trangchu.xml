@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColorWhite"
+    android:padding="@dimen/_10sdp"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearKetNoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Switch
+            android:id="@+id/swKetNoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ket_noi"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18ssp"
+            android:textColor="@color/textColor"
+            />
+
+        <TextView
+            android:id="@+id/txtTinhTrangKetNoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/tinh_trang_ket_noi"
+            android:textColor="@color/textColorRed"
+            android:textColorHint="@color/textColorRed"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textStyle="italic"
+            android:layout_gravity="center_vertical"
+            />
+
+        <Button
+            android:id="@+id/btnSubscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subscribe"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginLeft="@dimen/_5sdp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearMoDong"
+        android:layout_below="@+id/linearKetNoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_40sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/imgBlue"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/off"
+                android:layout_marginRight="@dimen/_20sdp"/>
+
+            <Button
+                android:id="@+id/btnMoBlue"
+                android:text="@string/mo"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16ssp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/custom_btnblue"
+                android:textAllCaps="false"
+                android:layout_marginRight="@dimen/_10sdp"
+                />
+
+            <Button
+                android:id="@+id/btnDongBLue"
+                android:text="@string/dong"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16ssp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/custom_btnblue"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/imgGreen"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/off"
+                android:layout_marginRight="@dimen/_20sdp"/>
+
+            <Button
+                android:id="@+id/btnMoGreen"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/custom_btngreen"
+                android:text="@string/mo"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16ssp" />
+
+            <Button
+                android:id="@+id/btnDongGreen"
+                android:text="@string/dong"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16ssp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/custom_btngreen"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/imgRed"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/off"
+                android:layout_marginRight="@dimen/_20sdp"/>
+
+            <Button
+                android:id="@+id/btnMoRed"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/custom_btnred"
+                android:text="@string/mo"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16ssp" />
+
+            <Button
+                android:id="@+id/btnDongRed"
+                android:text="@string/dong"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16ssp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/custom_btnred"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/imgYellow"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:src="@drawable/off" />
+
+            <Button
+                android:id="@+id/btnMoYellow"
+                android:text="@string/mo"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16ssp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/custom_btnyellow"
+                android:textAllCaps="false"
+                android:layout_marginRight="@dimen/_10sdp"
+                />
+
+            <Button
+                android:id="@+id/btnDongYellow"
+                android:text="@string/dong"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16ssp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/custom_btnyellow"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtClientID"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_below="@id/linearMoDong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Client id ket noi vao AWS"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"/>
+</RelativeLayout>

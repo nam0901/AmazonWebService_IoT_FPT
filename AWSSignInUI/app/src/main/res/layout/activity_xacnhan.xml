@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColorWhite">
+
+    <include layout="@layout/custom_toobar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/xac_nhan_ma"
+            android:textStyle="bold"
+            android:textSize="@dimen/_19ssp"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            />
+
+        <EditText
+            android:id="@+id/edtXacNhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nhap_xn"
+            android:textColorHint="@color/textColor"
+            android:textStyle="italic"
+            android:textSize="@dimen/_16ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/custom_edtext"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/textColor"
+            />
+
+        <Button
+            android:id="@+id/btnXacNhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/btn_xac_nhan"
+            android:background="@drawable/custom_btndangnhap"
+            android:textColor="@color/textColorWhite"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_16ssp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gui_lai_ma"
+            android:textColor="@color/textColorRed"
+            android:textAlignment="textEnd"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textSize="@dimen/_13ssp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

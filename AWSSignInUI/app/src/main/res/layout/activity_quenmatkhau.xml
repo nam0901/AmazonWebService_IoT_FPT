@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColorWhite">
+
+    <include layout="@layout/custom_toobar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <TextView
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quen_mat_khau"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_20ssp"
+            android:padding="@dimen/_10sdp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="Điền tên đăng nhập và mật khẩu mới cùng với mã xác nhận được gửi cho bạn"
+            android:textStyle="italic"
+            android:padding="@dimen/_5sdp"
+            android:textSize="@dimen/_12ssp"
+            />
+
+
+        <EditText
+            android:id="@+id/edtMKMoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/custom_edtext"
+            android:hint="@string/mat_khau_moi"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/textColor"
+            android:textSize="@dimen/_18ssp"
+            android:textColor="@color/textColor"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/txtLoiMKMoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/textColorRed"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edtXNQuen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/custom_edtext"
+            android:hint="@string/nhap_xn"
+            android:padding="@dimen/_10sdp"
+            android:textColorHint="@color/textColor"
+            android:textSize="@dimen/_18ssp"
+            android:textColor="@color/textColor"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/txtLoiXNQuen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/textColorRed"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnXNQuen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xac_nhan"
+            android:background="@drawable/custom_btndangnhap"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

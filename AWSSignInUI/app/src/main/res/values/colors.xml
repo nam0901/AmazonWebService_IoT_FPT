@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="tranparentBackground">#ffffff</color>
+    <color name="textColor">#000000</color>
+    <color name="textColorRed">#e41d23</color>
+    <color name="textColorWhite">#fff</color>
+    <color name="btndangnhapOrange">#ff6340</color>
+    <color name="backgroundColorWhite">#fff</color>
+
+    <color name="stel_500">#03A9F4</color>
+    <color name="stel_700">#0288D1</color>
+
+</resources>
